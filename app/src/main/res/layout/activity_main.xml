@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    android:background="#ddd"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/top"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/iv4"
+            android:background="#ff0000"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:layout_width="9dp"
+        android:layout_height="30dp"
+        android:id="@+id/id1"
+        android:background="#aa3333"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/finlist"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/id2"
+        />
+
+    <ImageButton
+        android:layout_width="9dp"
+        android:layout_height="30dp"
+        android:id="@+id/id2"
+        android:background="#33aa33"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/finlist"
+        app:layout_constraintLeft_toRightOf="@+id/id1"
+        app:layout_constraintRight_toLeftOf="@+id/id3"
+        />
+
+    <ImageButton
+        android:layout_width="9dp"
+        android:layout_height="30dp"
+        android:id="@+id/id3"
+        android:background="#3333aa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/finlist"
+        app:layout_constraintLeft_toRightOf="@+id/id2"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/finlist"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id1"
+        android:background="#aaa"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

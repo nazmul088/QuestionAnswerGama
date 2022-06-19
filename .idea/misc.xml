@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/drawable/custom_button.xml" value="0.57421875" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/drawable/edit_text_bg.xml" value="0.5610687022900763" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/drawable/edit_text_bg_green.xml" value="0.55875" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/drawable/edit_text_bg_green_1.xml" value="0.55875" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/drawable/edit_text_name_bg.xml" value="0.57421875" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3425925925925926" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout-v22/item.xml" value="0.54296875" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout-v22/itemsrc.xml" value="0.303125" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/activity_consent.xml" value="0.25" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/activity_instruction.xml" value="0.5018203883495146" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/activity_main.xml" value="0.28532608695652173" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/activity_name.xml" value="0.33" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/activity_table_data.xml" value="0.67" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/item.xml" value="5.0" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/itemsrc.xml" value="6.0" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/main3.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/main4.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/main5.xml" value="0.20520833333333333" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/main6.xml" value="0.20520833333333333" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/layout/main7.xml" value="0.20520833333333333" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.33203125" />
+        <entry key="..\:/Study/L-4-T-1/Blood Project/Nazmul/QuestionAnswer/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.33203125" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/drawable/custom_button.xml" value="0.287109375" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/drawable/custom_button_1.xml" value="0.287109375" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/drawable/disable_button.xml" value="0.57421875" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout-v22/activity_consent.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout-v22/activity_instruction.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout-v22/activity_name.xml" value="0.5382281553398058" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout-v22/item.xml" value="0.55" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout-v22/itemsrc.xml" value="0.75" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout-v22/main3.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_consent.xml" value="0.3078125" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_demo_game.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_first_main_question.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_game_end.xml" value="0.52890625" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_instruction.xml" value="0.28532608695652173" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_practice_second.xml" value="0.5285194174757282" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_practice_session_end.xml" value="0.5382281553398058" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_practice_third.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_practise_game_start.xml" value="0.5382281553398058" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_result.xml" value="0.52890625" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_second_main_question.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_second_question.xml" value="0.33605072463768115" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_table_data.xml" value="0.5" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_third_main_question.xml" value="0.67" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/activity_third_question.xml" value="0.35260416666666666" />
+        <entry key="..\:/Study/L-4-T-1/Question Answer Project/Code3/QuestionAnswer-main/app/src/main/res/layout/main3.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

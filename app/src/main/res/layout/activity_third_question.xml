@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/src"
+        android:layout_width="285dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="100dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lsrc"
+            android:paddingTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Q:What was the GDP Growth rate of Bangladesh for the year 2020-21?
+"       app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des1"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/des2"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des2"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des1"
+        app:layout_constraintRight_toLeftOf="@+id/des3"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des3"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des2"
+        app:layout_constraintRight_toLeftOf="@+id/des4"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des4"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des3"
+        app:layout_constraintRight_toLeftOf="@+id/des5"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des5"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des4"
+        app:layout_constraintRight_toLeftOf="@+id/des6"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des6"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des5"
+        app:layout_constraintRight_toLeftOf="@+id/des7"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des7"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des6"
+        app:layout_constraintRight_toLeftOf="@+id/des8"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des8"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des7"
+        app:layout_constraintRight_toLeftOf="@+id/des9"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des9"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="2dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des8"
+        app:layout_constraintRight_toLeftOf="@+id/des10"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/des10"
+        android:layout_width="75dp"
+        android:layout_height="65dp"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintLeft_toRightOf="@+id/des9"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/ldes10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_bg" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green_1"
+        android:text="Drag from here"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:gravity="center"
+
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/src"
+        app:layout_constraintLeft_toLeftOf="@+id/src"
+        app:layout_constraintRight_toRightOf="@+id/src" />
+
+    <TextView
+        android:id="@+id/h1"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.1%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des1"
+        app:layout_constraintLeft_toLeftOf="@+id/des1"
+        app:layout_constraintRight_toRightOf="@+id/des1" />
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.2%"
+        android:textColor="@color/white"
+        android:id="@+id/h2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des2"
+        app:layout_constraintLeft_toLeftOf="@+id/des2"
+        app:layout_constraintRight_toRightOf="@+id/des2" />
+
+    <TextView
+        android:id="@+id/h3"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.3%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des3"
+        app:layout_constraintLeft_toLeftOf="@+id/des3"
+
+        app:layout_constraintRight_toRightOf="@+id/des3" />
+
+    <TextView
+        android:id="@+id/h4"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.4%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des4"
+        app:layout_constraintLeft_toLeftOf="@+id/des4"
+        app:layout_constraintRight_toRightOf="@+id/des4" />
+
+    <TextView
+        android:id="@+id/h5"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.5%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des5"
+        app:layout_constraintLeft_toLeftOf="@+id/des5"
+        app:layout_constraintRight_toRightOf="@+id/des5" />
+
+    <TextView
+        android:id="@+id/h6"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.6%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des6"
+        app:layout_constraintLeft_toLeftOf="@+id/des6"
+        app:layout_constraintRight_toRightOf="@+id/des6" />
+
+    <TextView
+        android:id="@+id/h7"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.7%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des7"
+        app:layout_constraintLeft_toLeftOf="@+id/des7"
+        app:layout_constraintRight_toRightOf="@+id/des7" />
+
+    <TextView
+        android:id="@+id/h8"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.8%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des8"
+        app:layout_constraintLeft_toLeftOf="@+id/des8"
+        app:layout_constraintRight_toRightOf="@+id/des8" />
+
+    <TextView
+        android:id="@+id/h9"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.9%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des9"
+        app:layout_constraintLeft_toLeftOf="@+id/des9"
+        app:layout_constraintRight_toRightOf="@+id/des9" />
+
+    <TextView
+        android:id="@+id/h10"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_bg_green"
+        android:gravity="center"
+        android:text="5.10%"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/des10"
+        app:layout_constraintLeft_toLeftOf="@+id/des10"
+        app:layout_constraintRight_toRightOf="@+id/des10" />
+
+
+    <TextView
+        android:id="@+id/tsrc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="22dp"
+        app:layout_constraintLeft_toLeftOf="@+id/src"
+        app:layout_constraintRight_toRightOf="@+id/src"
+        app:layout_constraintTop_toBottomOf="@+id/src" />
+
+    <TextView
+        android:id="@+id/tdes1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des1"
+        app:layout_constraintRight_toRightOf="@+id/des1"
+        app:layout_constraintTop_toBottomOf="@+id/des1" />
+
+    <TextView
+        android:id="@+id/tdes2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des2"
+        app:layout_constraintRight_toRightOf="@+id/des2"
+        app:layout_constraintTop_toBottomOf="@+id/des2" />
+
+    <TextView
+        android:id="@+id/tdes3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des3"
+        app:layout_constraintRight_toRightOf="@+id/des3"
+        app:layout_constraintTop_toBottomOf="@+id/des3" />
+
+    <TextView
+        android:id="@+id/tdes4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des4"
+        app:layout_constraintRight_toRightOf="@+id/des4"
+        app:layout_constraintTop_toBottomOf="@+id/des4" />
+
+    <TextView
+        android:id="@+id/tdes5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des5"
+        app:layout_constraintRight_toRightOf="@+id/des5"
+        app:layout_constraintTop_toBottomOf="@+id/des5" />
+
+    <TextView
+        android:id="@+id/tdes6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des6"
+        app:layout_constraintRight_toRightOf="@+id/des6"
+        app:layout_constraintTop_toBottomOf="@+id/des6" />
+
+    <TextView
+        android:id="@+id/tdes7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des7"
+        app:layout_constraintRight_toRightOf="@+id/des7"
+        app:layout_constraintTop_toBottomOf="@+id/des7" />
+
+    <TextView
+        android:id="@+id/tdes8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des8"
+        app:layout_constraintRight_toRightOf="@+id/des8"
+        app:layout_constraintTop_toBottomOf="@+id/des8" />
+
+    <TextView
+        android:id="@+id/tdes9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des9"
+        app:layout_constraintRight_toRightOf="@+id/des9"
+        app:layout_constraintTop_toBottomOf="@+id/des9" />
+
+    <TextView
+        android:id="@+id/tdes10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/des10"
+        app:layout_constraintRight_toRightOf="@+id/des10"
+        app:layout_constraintTop_toBottomOf="@+id/des10" />
+
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_margin="40dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/custom_button"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click on icon and drag it to your desired box"
+        app:layout_constraintTop_toBottomOf="@id/tsrc"
+        app:layout_constraintLeft_toLeftOf="@id/src"
+        android:layout_marginTop="10dp"
+
+        tools:layout_editor_absoluteX="342dp"
+        tools:layout_editor_absoluteY="501dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
