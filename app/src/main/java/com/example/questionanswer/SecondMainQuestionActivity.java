@@ -29,10 +29,10 @@ public class SecondMainQuestionActivity extends CustomActivity {
     public static int[] value = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
     /* renamed from: a */
-    double f33a = 3000.0d;
+    double f33a = 1000.0d;
 
     /* renamed from: b */
-    double f34b = 1500.0d;
+    double f34b = 500.0d;
     private Button button;
     private Context context;
     /* access modifiers changed from: private */

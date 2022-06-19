@@ -33,10 +33,10 @@ public class ThirdMainQuestionActivity extends CustomActivity {
     public static int[] value = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
     /* renamed from: a */
-    double f41a = 3000.0d;
+    double f41a = 1000.0d;
 
     /* renamed from: b */
-    double f42b = 1500.0d;
+    double f42b = 500.0d;
     private Button button;
     private Context context;
     /* access modifiers changed from: private */

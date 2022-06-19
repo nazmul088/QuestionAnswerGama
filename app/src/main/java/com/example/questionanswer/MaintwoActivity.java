@@ -25,7 +25,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 
-public class MaintwoActivity extends CustomActivity {
+public class MaintwoActivity extends CustomActivity { //this is first practice activity
     public static Activity activity;
     public static boolean ended = false;
     public static HashMap<String, String> resp = new HashMap<>();
@@ -204,7 +204,7 @@ public class MaintwoActivity extends CustomActivity {
                         for (int i = 0; i < 10; i++) {
                             MaintwoActivity.value[i] = Integer.parseInt(CustomActivity.tdes[i].getText().toString());
                         }
-                        result = MaintwoActivity.this.calculateResult(3);
+                        result = MaintwoActivity.this.calculateResult(5);
                         lostValue = 100.0d - result;
                         MaintwoActivity.ended = true;
                     } else {
