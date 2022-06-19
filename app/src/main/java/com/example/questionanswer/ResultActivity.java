@@ -181,7 +181,7 @@ public class ResultActivity extends AppCompatActivity {
                 this.resources = locale7.getResources();
                 TextView textView20 = (TextView) findViewById(R.id.textView1);
                 this.textView = textView20;
-                textView20.setText("আমরা আপনার অর্জিত বোনাস হিসাব করবো এবং এন্ড লাইন সার্ভের পরে আপনার ফেক্টরি/কারখানার মোবাইল মানি অ্যাকাউন্টে টাকাটি পাঠিয়ে দিবো।\n");
+                textView20.setText("আমরা আপনার অর্জিত বোনাস হিসাব করবো এবং ২০২৩ সালে এন্ড লাইন সার্ভের পরে আপনার ফেক্টরি/কারখানার মোবাইল মানি অ্যাকাউন্টে টাকাটি পাঠিয়ে দিবো।\n");
                 Animation loadAnimation12 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
                 this.animation = loadAnimation12;
                 this.textView.setAnimation(loadAnimation12);
@@ -197,7 +197,7 @@ public class ResultActivity extends AppCompatActivity {
                 this.resources = locale8.getResources();
                 TextView textView22 = (TextView) findViewById(R.id.textView1);
                 this.textView = textView22;
-                textView22.setText("We will calculate your earned bonus and send the amount in your firm’s mobile money account after the Endline Survey.");
+                textView22.setText("We will calculate your earned bonus and send the amount in your firm’s mobile money account after the Endline Survey in 2023.");
                 TextView textView23 = (TextView) findViewById(R.id.textView);
                 this.textView = textView23;
                 textView23.setText(this.resources.getString(R.string.thank_you_for_your_answer));
@@ -216,7 +216,7 @@ public class ResultActivity extends AppCompatActivity {
                     ResultActivity.this.startActivity(intent);
                 }
                 if (game.equalsIgnoreCase("practiceSecond")) {
-                    Intent intent2 = new Intent(ResultActivity.this.getApplicationContext(), PracticeThirdActivity.class);
+                    Intent intent2 = new Intent(ResultActivity.this.getApplicationContext(), PracticeSessionEndActivity.class);
                     intent2.putExtra("language", language);
                     ResultActivity.this.startActivity(intent2);
                 } else if (game.equalsIgnoreCase("practiceThird")) {

@@ -2,51 +2,89 @@
     <string name="app_name">Sample Game</string>
     <string name="consent_label">Introduction and Consent</string>
     <string name="hello_my_name_is">Hello, my name is</string>
-    <string name="consent_text" >I work for Innovations for Poverty Action (IPA), a research organization.  We are currently conducting a study on technology and innovation in firms. The study is conducted jointly with the World Bank and Columbia University.  As you just completed the Survey/ As you completed the survey on 20 October,2021 you are eligible to participate in an exercise. The exercise will help us learn what you expect, for an AVERAGE Footwear/RMG Firm, will change by replacing the clutch motor on one sewing machine with a servo motor. We will begin with questions about your existing sewing machines and then ask you about different scenarios where a clutch motor is replaced by a servo motor. Please keep in mind that we want to understand what you think will be the impact on the AVERAGE footwear/RMG firm. Participating in this exercise will help you earn a maximum of $100. I will go through all the rules with you thoroughly so that your firm has the best chance of acquiring the amount. The process will take about 15 minutes. If you complete the full exercise, you will have a chance of receiving a cash amount in your firm’s Mobile Money Account.</string>
+    <string name="consent_text" >I work for Org-Quest Research Limited (OrQuest), a survey firm. We are conducting a research
+study in coordination with IPA on technology and innovation in firms. The study is conducted
+jointly with the researchers from World Bank, Columbia University, and Johns Hopkins
+University. As you previously completed a survey with us few months back, you are eligible to
+participate in this exercise. The exercise will help us learn what you expect will change for a
+Leather Goods or Footwear firm similar to yours if it replaces the clutch motor on one sewing
+machine with a servo motor. We will begin with questions about your existing sewing machines
+and then ask you about different scenarios where a clutch motor is replaced by a servo motor.
+Please keep in mind that we want to understand what you think will be the impact of this
+replacement on a Leather Goods or Footwear firm similar to yours. Participating in this exercise
+will help you earn a maximum bonus of Tk 9000. I will go through all the rules with you
+thoroughly so that your firm has the best chance of acquiring a bonus amount. The process will
+take about 15 minutes. If you complete the full exercise, you will have a chance of receiving a
+cash amount in your firm’s Mobile Money Account at the end of the study in 2023.
+
+
+        \n\nDo you have any questions? Do you agree to participate in the exercise?</string>
 
 
     <string name="instructionsLabel">Instructions</string>
-    <string name="instructionsText">“For each of the questions that we will ask you in the exercise, we would like you to imagine that you have 10 matchsticks to allocate to different Number ranges shown on the screen based on the probability that you think a specific event will happen. One matchstick represents 10 percent or a 1 in 10 chance. As you add matchsticks, it means that you think the event is more likely to happen. For example, if you put two matchsticks in a range, it means you think there is a 20 percent chance of this outcome happening (or a 2 in 10 chance of this outcome happening). If you pick 5 matchsticks, it means that you think there is a 50 percent chance (or a 5 in 10 chance) of this outcome happening and if you put all 10 matchsticks in a range, it means you are certain this will be the outcome.\nThere is no right or wrong answer, we just want to know what you think for a Leather Goods or Footwear Firm similar to yours.”\n
+    <string name="instructionsText">“For each of the questions that we will ask you in the exercise, we would like you to imagine that
+you have 10 matchsticks to allocate to different number ranges shown on the screen based on
+the probability that you think a specific event will happen. One matchstick represents 10 percent
+or a 1 in 10 chance. As you add matchsticks, it means that you think the event is more likely to
+happen. For example, if you put two matchsticks in a range, it means you think there is a 20
+percent or a 2 in 10 chance of this outcome happening. If you pick 5 matchsticks, it means that
+you think there is a 50 percent chance (or a 5 in 10 chance) of this outcome happening and if
+you put all 10 matchsticks in a range, it means you are certain this will be the outcome.”\n
 
-I want to go through a practice exercise with you first. This will help you understand the structure of the full exercise. I will go through all the steps in detail. I am happy to go through the information as many times as you need, so please ask me questions at any stage.</string>
+        \nThere is no right or wrong answer, we just want to know what you think for a Leather Goods or
+Footwear Firm similar to yours.
+
+\n\nI want to go through a practice exercise with you first. This will help you understand the structure of the full exercise. I will go through all the steps in detail. I am happy to go through the information as many times as you need, so please ask me questions at any stage.</string>
 
 
-    <string name="instructionsText2">You will get a bonus for participating in the game and you will get an additional bonus based on each matchstick you assign in the correct box. The bonus will get reduced based on how many matchsticks you assign in the incorrect boxes.</string>
+    <string name="instructionsText2">You will get a bonus for participating in the game. The bonus will be increased based on each
+matchstick you assign in the correct box. The bonus will be reduced based on how many
+matchsticks you assign in the incorrect boxes.</string>
 
-<!--    Practice Question 1-->
+    <!--    Practice Question 1-->
     <string name="practiceQuestion1">1.  As of 20 July 2021, the Bangladesh Cricket team has played 388 ODI (One-day International) matches. How many matches out of 388 ODIs has the Bangladesh Cricket team won?</string>
 
-<!--    Practice Question 2-->
+    <!--    Practice Question 2-->
     <string name="practiceQuestion2">2. As of 2019, what % of the population or how many people out of every 100 has access to electricity in Bangladesh?"</string>
 
     <!--    Practice Question 3-->
-<string name="practiceQuestion3">3. What was Bangladesh’s approximate export earnings in US$ from the leather, leather goods and footwear sector in the year 2019?</string>
+    <string name="practiceQuestion3">3. What was Bangladesh’s approximate export earnings in US$ from the leather, leather goods and footwear sector in the year 2019?</string>
 
 
-<!--    Practice Session End -->
-    <string name="practiceSessionEndText">You have completed the practice exercise. We will now move to the main exercise which will help us learn what you expect will change for an AVERAGE Leather &amp; Footwear Firm, by replacing the clutch motor on one sewing machine with a servo motor. While answering, please keep in mind that we are asking for an AVERAGE Leather &amp; Footwear Firm.</string>
+    <!--    Practice Session End -->
+    <string name="practiceSessionEndText">You have completed the practice exercise. We will now move to the main exercise, which will
+help us learn what you expect will change for a Leather Goods or Footwear Firm similar to
+yours, if it replaces the clutch motor on one sewing machine with a servo motor. We will ask you
 
-<!--    Main Question 1-->
-    <string name="mainQuestion1">Q1. For a firm similar to yours, how many units of electricity (kWh) does one sewing machine with a clutch motor use in an eight-hour shift?</string>
+Page 4 of 5
+
+3 questions. While answering please keep in mind that we are asking these questions for a
+Leather Goods or Footwear firm similar to yours.</string>
+
+    <!--    Main Question 1-->
+    <string name="mainQuestion1">Q1. For a firm similar to yours, how many units of electricity (kWh) does one sewing machine with
+a clutch motor use in an average day with an eight-hour shift and normal scheduled breaks?</string>
 
     <!--    Main Question 2-->
-    <string name="mainQuestion2">Q2. For a firm similar to yours, if clutch motor on that same machine is replaced by a servo motor, how many units of electricity do you think this machine will use in one eight-hour shift?</string>
+    <string name="mainQuestion2">Q2. For a firm similar to yours, if clutch motor on that same machine is replaced by a servo motor,
+how many units of electricity (kWh) do you think this machine will use in an average day with an
+eight-hour shift and normal scheduled breaks?</string>
 
-<!--    Main Question 3-->
-    <string name="mainQuestion3">Q3. What is the price of electricity per unit (kWh) for a firm like yours which gets an official electricity bill?</string>
+    <!--    Main Question 3-->
+    <string name="mainQuestion3">Q3. What is the price of electricity per unit (kWh) for a firm like yours?</string>
 
 
     <string name="thank_you_for_your_answer">Thank you for your answer!</string>
-    <string name="q_1_o_1">100-110</string>
-    <string name="q_1_o_2">111-120</string>
-    <string name="q_1_o_3">121-130</string>
-    <string name="q_1_o_4">131-140</string>
-    <string name="q_1_o_5">141-150</string>
-    <string name="q_1_o_6">151-160</string>
-    <string name="q_1_o_7">161-170</string>
-    <string name="q_1_o_8">171-180</string>
-    <string name="q_1_o_9">181-190</string>
-    <string name="q_1_o_10">191-200</string>
+    <string name="q_1_o_1">0-40</string>
+    <string name="q_1_o_2">41-60</string>
+    <string name="q_1_o_3">61-80</string>
+    <string name="q_1_o_4">81-100</string>
+    <string name="q_1_o_5">101-120</string>
+    <string name="q_1_o_6">121-140</string>
+    <string name="q_1_o_7">141-160</string>
+    <string name="q_1_o_8">161-180</string>
+    <string name="q_1_o_9">181-200</string>
+    <string name="q_1_o_10">More than 200</string>
     <string name="q_2_o_1">0-10%</string>
     <string name="q_2_o_2">11-20%</string>
     <string name="q_2_o_3">21-30%</string>
@@ -67,37 +105,37 @@ I want to go through a practice exercise with you first. This will help you unde
     <string name="q_3_o_8">80001-90000 Million</string>
     <string name="q_3_o_9">90001-100000 Million</string>
     <string name="q_3_o_10">100001-110000 Million</string>
-    <string name="q_4_o_1">0-0.5</string>
-    <string name="q_4_o_2">0.5-1</string>
-    <string name="q_4_o_3">1-1.5</string>
-    <string name="q_4_o_4">1.5-2</string>
-    <string name="q_4_o_5">2-2.5</string>
-    <string name="q_4_o_6">2.5-3</string>
-    <string name="q_4_o_7">3-3.5</string>
-    <string name="q_4_o_8">3.5-4</string>
-    <string name="q_4_o_9">4-4.5</string>
-    <string name="q_4_o_10">4.5-5</string>
-    <string name="q_5_o_1">0-0.5</string>
-    <string name="q_5_o_2">0.5-1</string>
-    <string name="q_5_o_3">1-1.5</string>
-    <string name="q_5_o_4">1.5-2</string>
-    <string name="q_5_o_5">2-2.5</string>
-    <string name="q_5_o_6">2.5-3</string>
-    <string name="q_5_o_7">3-3.5</string>
-    <string name="q_5_o_8">3.5-4</string>
-    <string name="q_5_o_9">4-4.5</string>
-    <string name="q_5_o_10">4.5-5</string>
-    <string name="q_6_o_1">0.1-1tk</string>
-    <string name="q_6_o_2">1.01-2tk</string>
-    <string name="q_6_o_3">2.01-3tk</string>
-    <string name="q_6_o_4">3.01-4tk</string>
-    <string name="q_6_o_5">4.01-5tk</string>
-    <string name="q_6_o_6">5.01-6tk</string>
-    <string name="q_6_o_7">6.01-7tk</string>
-    <string name="q_6_o_8">7.01-8tk</string>
-    <string name="q_6_o_9">8.01-9tk</string>
-    <string name="q_6_o_10">9.01-10tk</string>
-    <string name="thank_you_for_your_time_have_a_good_day">Thank you for your time.Have a good Day</string>
+    <string name="q_4_o_1">0-1</string>
+    <string name="q_4_o_2">1.1-1.5</string>
+    <string name="q_4_o_3">1.6-2</string>
+    <string name="q_4_o_4">2.1-2.5</string>
+    <string name="q_4_o_5">2.6-3</string>
+    <string name="q_4_o_6">3.1-3.5</string>
+    <string name="q_4_o_7">3.6-4</string>
+    <string name="q_4_o_8">4.1-4.5</string>
+    <string name="q_4_o_9">4.6-5</string>
+    <string name="q_4_o_10">More than 5</string>
+    <string name="q_5_o_1">0-1</string>
+    <string name="q_5_o_2">1.1-1.5</string>
+    <string name="q_5_o_3">1.6-2</string>
+    <string name="q_5_o_4">2.1-2.5</string>
+    <string name="q_5_o_5">2.6-3</string>
+    <string name="q_5_o_6">3.1-3.5</string>
+    <string name="q_5_o_7">3.6-4</string>
+    <string name="q_5_o_8">4.1-4.5</string>
+    <string name="q_5_o_9">4.6-5</string>
+    <string name="q_5_o_10">More than 5</string>
+    <string name="q_6_o_1">Less than 3tk</string>
+    <string name="q_6_o_2">3.0-4.5tk</string>
+    <string name="q_6_o_3">4.6-6tk</string>
+    <string name="q_6_o_4">6.1-7.5tk</string>
+    <string name="q_6_o_5">7.6-9tk</string>
+    <string name="q_6_o_6">9.1-10.5tk</string>
+    <string name="q_6_o_7">10.6-12tk</string>
+    <string name="q_6_o_8">12.1-13.5tk</string>
+    <string name="q_6_o_9">13.6-15tk</string>
+    <string name="q_6_o_10">More than 15tk</string>
+    <string name="thank_you_for_your_time_have_a_good_day">Thank you for your time.\nHave a good day.</string>
 
 
 </resources>
