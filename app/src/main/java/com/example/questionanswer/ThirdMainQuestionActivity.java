@@ -59,25 +59,25 @@ public class ThirdMainQuestionActivity extends CustomActivity {
             TextView textView2 = (TextView) ((TableRow) tableLayout.getChildAt(i + 1)).getChildAt(0);
             this.textView = textView2;
             if (i == 0) {
-                textView2.setText("যদি ০.০১-১ টাকা সঠিক হয়");
+                textView2.setText("যদি ৩ টাকার কম সঠিক হয়");
             } else if (i == 1) {
-                textView2.setText("যদি ১.০১-২ টাকা সঠিক হয়");
+                textView2.setText("যদি ৩-৪.৫ টাকা সঠিক হয়");
             } else if (i == 2) {
-                textView2.setText("যদি ২.০১-৩ টাকা সঠিক হয়");
+                textView2.setText("যদি ৪.৬-৬ টাকা সঠিক হয়");
             } else if (i == 3) {
-                textView2.setText("যদি ৩.০১-৪ টাকা সঠিক হয়");
+                textView2.setText("যদি ৬.১-৭.৫ টাকা সঠিক হয়");
             } else if (i == 4) {
-                textView2.setText("যদি ৪.০১-৫ টাকা সঠিক হয়");
+                textView2.setText("যদি ৭.৬-৯ টাকা সঠিক হয়");
             } else if (i == 5) {
-                textView2.setText("যদি ৫.০১-৬ টাকা সঠিক হয়");
+                textView2.setText("যদি ৯.১-১০.৫ টাকা সঠিক হয়");
             } else if (i == 6) {
-                textView2.setText("যদি ৬.০১-৭ টাকা সঠিক হয়");
+                textView2.setText("যদি ১০.৬-১২ টাকা সঠিক হয়");
             } else if (i == 7) {
-                textView2.setText("যদি ৭.০১-৮ টাকা সঠিক হয়");
+                textView2.setText("যদি ১২.১-১৩.৫ টাকা সঠিক হয়");
             } else if (i == 8) {
-                textView2.setText("যদি ৮.০১-৯ টাকা সঠিক হয়");
+                textView2.setText("যদি ১৩.৬-১৫ টাকা সঠিক হয়");
             } else if (i == 9) {
-                textView2.setText("যদি ৯.০১-১০ টাকা সঠিক হয়");
+                textView2.setText("যদি ১৫ টাকার অধিক সঠিক হয়");
             }
         }
     }

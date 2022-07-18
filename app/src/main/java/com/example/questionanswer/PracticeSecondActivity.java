@@ -330,7 +330,7 @@ public class PracticeSecondActivity extends CustomActivity {
             TextView textView2 = (TextView) ((TableRow) tableLayout.getChildAt(i + 1)).getChildAt(0);
             this.textView = textView2;
             if (i == 0) {
-                textView2.setText("যদি ০০-১০% সঠিক হয়");
+                textView2.setText("যদি ০-১০% সঠিক হয়");
             } else if (i == 1) {
                 textView2.setText("যদি ১১-২০% সঠিক হয়");
             } else if (i == 2) {

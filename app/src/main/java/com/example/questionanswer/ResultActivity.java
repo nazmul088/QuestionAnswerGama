@@ -49,8 +49,8 @@ public class ResultActivity extends AppCompatActivity {
             TextView textView2 = (TextView) findViewById(R.id.textView);
             this.textView = textView2;
             textView2.setAnimation(this.animation);
-            String str = "The correct answer to this question is 136.Based on your allocation, you earned " + Double.parseDouble(earnValue) + " taka";
-            String banglaStr = "এই প্রশ্নের সঠিক উত্তর হল ১৩৬। আপনার বরাদ্দের উপর ভিত্তি করে, আপনি " + MyStaff.numBangla(Double.parseDouble(earnValue)) + "টাকা অর্জন করেছেন।\n";
+            String str = "The correct answer to this question is \"136\".Based on your allocation, you earned \"" + Double.parseDouble(earnValue) + "\" points.";
+            String banglaStr = "এই প্রশ্নের সঠিক উত্তর হল \"১৩৬\"। আপনার ম্যাচ কাঠি বরাদ্দের উপর ভিত্তি করে, আপনি \"" + MyStaff.numBangla(Double.parseDouble(earnValue)) + "\" পয়েন্ট অর্জন করেছেন।\n";
             if (language.equalsIgnoreCase("Bangla")) {
                 Context locale = LocaleHelper.setLocale(this, "bn");
                 this.context = locale;
@@ -89,8 +89,8 @@ public class ResultActivity extends AppCompatActivity {
             this.textView = textView7;
             textView7.setAnimation(this.animation);
             this.animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
-            String str2 = "The correct answer to this question is 92.2%.Based on your allocation, you earned " + Double.parseDouble(earnValue) + " taka";
-            String banglaStr2 = "এই প্রশ্নের সঠিক উত্তর হল ৯২.২%। আপনার বরাদ্দের উপর ভিত্তি করে, আপনি " + MyStaff.numBangla(Double.parseDouble(earnValue)) + "টাকা অর্জন করেছেন।\n";
+            String str2 = "The correct answer to this question is \"92.2%\".Based on your allocation, you earned \"" + Double.parseDouble(earnValue) + "\" points.";
+            String banglaStr2 = "এই প্রশ্নের সঠিক উত্তর হল \"৯২.২%\"। আপনার ম্যাচ কাঠি বরাদ্দের উপর ভিত্তি করে, আপনি \"" + MyStaff.numBangla(Double.parseDouble(earnValue)) + "\" পয়েন্ট অর্জন করেছেন।\n";
             if (language.equalsIgnoreCase("Bangla")) {
                 Context locale3 = LocaleHelper.setLocale(this, "bn");
                 this.context = locale3;
@@ -181,7 +181,7 @@ public class ResultActivity extends AppCompatActivity {
                 this.resources = locale7.getResources();
                 TextView textView20 = (TextView) findViewById(R.id.textView1);
                 this.textView = textView20;
-                textView20.setText("আমরা আপনার অর্জিত বোনাস হিসাব করবো এবং ২০২৩ সালে এন্ড লাইন সার্ভের পরে আপনার ফেক্টরি/কারখানার মোবাইল মানি অ্যাকাউন্টে টাকাটি পাঠিয়ে দিবো।\n");
+                textView20.setText("আমরা আপনার অর্জিত বোনাস হিসাব করবো এবং ২০২৩ সালে এন্ড লাইন সার্ভের পরে আপনার ফ্যাক্টরি/কারখানার মোবাইল মানি অ্যাকাউন্টে টাকাটি পাঠিয়ে দিবো।\n");
                 Animation loadAnimation12 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
                 this.animation = loadAnimation12;
                 this.textView.setAnimation(loadAnimation12);

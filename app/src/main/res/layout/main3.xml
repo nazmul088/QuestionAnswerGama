@@ -419,9 +419,10 @@
     <TextView
         android:id="@+id/h1"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
+
         android:text="@string/q_1_o_1"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -434,9 +435,9 @@
 
     <TextView
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
         android:text="@string/q_1_o_2"
         android:textColor="@color/white"
         android:id="@+id/h2"
@@ -450,9 +451,9 @@
     <TextView
         android:id="@+id/h3"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
         android:text="@string/q_1_o_3"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -466,9 +467,10 @@
     <TextView
         android:id="@+id/h4"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
+
         android:text="@string/q_1_o_4"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -481,9 +483,10 @@
     <TextView
         android:id="@+id/h5"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
+
         android:text="@string/q_1_o_5"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -496,9 +499,10 @@
     <TextView
         android:id="@+id/h6"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
+
         android:text="@string/q_1_o_6"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -512,9 +516,9 @@
     <TextView
         android:id="@+id/h7"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
         android:text="@string/q_1_o_7"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -527,9 +531,9 @@
     <TextView
         android:id="@+id/h8"
         android:layout_width="76dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
         android:text="@string/q_1_o_8"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -542,9 +546,9 @@
     <TextView
         android:id="@+id/h9"
         android:layout_width="76dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
         android:text="@string/q_1_o_9"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -557,9 +561,9 @@
     <TextView
         android:id="@+id/h10"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
         android:background="@drawable/edit_text_bg_green"
-        android:gravity="left"
         android:text="@string/q_1_o_10"
         android:textColor="@color/white"
         android:textSize="18dp"

@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     android:background="#ffffff">
 
+
     <androidx.cardview.widget.CardView
         android:id="@+id/src"
         android:layout_width="285dp"
@@ -15,8 +16,8 @@
         app:cardCornerRadius="5dp"
         app:cardElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent">
+        app:layout_constraintLeft_toRightOf="@id/table_layout"
+        >
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -230,7 +231,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/des7"
-        android:layout_width="75dp"
+        android:layout_width="84dp"
         android:layout_height="65dp"
         android:layout_marginHorizontal="2dp"
         app:layout_constraintLeft_toRightOf="@+id/des6"
@@ -364,9 +365,10 @@
     <TextView
         android:id="@+id/h1"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/edit_text_bg_green"
+        android:layout_height="50dp"
         android:gravity="center"
+        android:background="@drawable/edit_text_bg_green"
+
         android:text="@string/q_6_o_1"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -378,9 +380,10 @@
 
     <TextView
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/edit_text_bg_green"
+        android:layout_height="50dp"
         android:gravity="center"
+        android:background="@drawable/edit_text_bg_green"
+
         android:text="@string/q_6_o_2"
         android:textColor="@color/white"
         android:id="@+id/h2"
@@ -394,9 +397,9 @@
     <TextView
         android:id="@+id/h3"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/edit_text_bg_green"
+        android:layout_height="50dp"
         android:gravity="center"
+        android:background="@drawable/edit_text_bg_green"
         android:text="@string/q_6_o_3"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -410,9 +413,9 @@
     <TextView
         android:id="@+id/h4"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/edit_text_bg_green"
+        android:layout_height="50dp"
         android:gravity="center"
+        android:background="@drawable/edit_text_bg_green"
         android:text="@string/q_6_o_4"
         android:textColor="@color/white"
         android:textSize="16sp"
@@ -425,7 +428,7 @@
     <TextView
         android:id="@+id/h5"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_6_o_5"
@@ -440,7 +443,7 @@
     <TextView
         android:id="@+id/h6"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_6_o_6"
@@ -455,7 +458,7 @@
     <TextView
         android:id="@+id/h7"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_6_o_7"
@@ -470,7 +473,7 @@
     <TextView
         android:id="@+id/h8"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_6_o_8"
@@ -485,7 +488,7 @@
     <TextView
         android:id="@+id/h9"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_6_o_9"
@@ -500,7 +503,7 @@
     <TextView
         android:id="@+id/h10"
         android:layout_width="84dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:paddingTop="2dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
@@ -721,7 +724,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 0.01-1tk is correct"
+                android:text="If less than 3 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -747,7 +750,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 1.01-2tk is correct"
+                android:text="If 3.0-4.5 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -773,7 +776,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 2.01-3tk is correct"
+                android:text="If 4.6-6 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -799,7 +802,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 3.01-4tk is correct"
+                android:text="If 6.1-7.5 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -825,7 +828,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 4.01-5tk is correct"
+                android:text="If 7.6-9 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -851,7 +854,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 5.01-6tk is correct"
+                android:text="If 9.1-10.5 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -877,7 +880,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 6.01-7tk is correct"
+                android:text="If 10.6-12 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -903,7 +906,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 7.01-8tk is correct"
+                android:text="If 12.1-13.5 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -929,7 +932,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 8.01-9tk is correct"
+                android:text="If 13.6-15 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -955,7 +958,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 9.01-10tk is correct"
+                android:text="If more than 15 tk is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />

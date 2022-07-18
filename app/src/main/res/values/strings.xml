@@ -12,7 +12,7 @@ machine with a servo motor. We will begin with questions about your existing sew
 and then ask you about different scenarios where a clutch motor is replaced by a servo motor.
 Please keep in mind that we want to understand what you think will be the impact of this
 replacement on a Leather Goods or Footwear firm similar to yours. Participating in this exercise
-will help you earn a maximum bonus of Tk 9000. I will go through all the rules with you
+will help you earn a maximum bonus of Tk 3000. I will go through all the rules with you
 thoroughly so that your firm has the best chance of acquiring a bonus amount. The process will
 take about 15 minutes. If you complete the full exercise, you will have a chance of receiving a
 cash amount in your firm’s Mobile Money Account at the end of the study in 2023.
@@ -22,17 +22,16 @@ cash amount in your firm’s Mobile Money Account at the end of the study in 202
 
 
     <string name="instructionsLabel">Instructions</string>
-    <string name="instructionsText">“For each of the questions that we will ask you in the exercise, we would like you to imagine that
-you have 10 matchsticks to allocate to different number ranges shown on the screen based on
-the probability that you think a specific event will happen. One matchstick represents 10 percent
-or a 1 in 10 chance. As you add matchsticks, it means that you think the event is more likely to
-happen. For example, if you put two matchsticks in a range, it means you think there is a 20
-percent or a 2 in 10 chance of this outcome happening. If you pick 5 matchsticks, it means that
-you think there is a 50 percent chance (or a 5 in 10 chance) of this outcome happening and if
-you put all 10 matchsticks in a range, it means you are certain this will be the outcome.”\n
+    <string name="instructionsText">For each of the questions that we will ask you in the exercise,
+        we would like you to imagine that you have 10 matchsticks to allocate to different number ranges
+        shown on the screen based on the probability that you think a specific event will happen.
+        One matchstick represents 10 percent or a 1 in 10 chance. As you add matchsticks, it means
+        that you think the event is more likely to happen. For example, if you put two matchsticks in a range,
+        it means you think there is a 20 percent or a 2 in 10 chance of this outcome happening. If you pick 5 matchsticks,
+        it means that you think there is a 50 percent chance (or a 5 in 10 chance) of this outcome happening and if you put
+        all 10 matchsticks in a range, it means you are certain this will be the outcome.\n
 
-        \nThere is no right or wrong answer, we just want to know what you think for a Leather Goods or
-Footwear Firm similar to yours.
+        \nThere is no right or wrong answer, we just want to know what you think for a Leather Goods or Footwear Firm similar to yours.
 
 \n\nI want to go through a practice exercise with you first. This will help you understand the structure of the full exercise. I will go through all the steps in detail. I am happy to go through the information as many times as you need, so please ask me questions at any stage.</string>
 
@@ -125,16 +124,16 @@ eight-hour shift and normal scheduled breaks?</string>
     <string name="q_5_o_8">4.1-4.5</string>
     <string name="q_5_o_9">4.6-5</string>
     <string name="q_5_o_10">More than 5</string>
-    <string name="q_6_o_1">Less than 3tk</string>
-    <string name="q_6_o_2">3.0-4.5tk</string>
-    <string name="q_6_o_3">4.6-6tk</string>
-    <string name="q_6_o_4">6.1-7.5tk</string>
-    <string name="q_6_o_5">7.6-9tk</string>
-    <string name="q_6_o_6">9.1-10.5tk</string>
-    <string name="q_6_o_7">10.6-12tk</string>
-    <string name="q_6_o_8">12.1-13.5tk</string>
-    <string name="q_6_o_9">13.6-15tk</string>
-    <string name="q_6_o_10">More than 15tk</string>
+    <string name="q_6_o_1">Less than 3 Tk</string>
+    <string name="q_6_o_2">3.0-4.5 Tk</string>
+    <string name="q_6_o_3">4.6-6 Tk</string>
+    <string name="q_6_o_4">6.1-7.5 Tk</string>
+    <string name="q_6_o_5">7.6-9 Tk</string>
+    <string name="q_6_o_6">9.1-10.5 Tk</string>
+    <string name="q_6_o_7">10.6-12 Tk</string>
+    <string name="q_6_o_8">12.1-13.5 Tk</string>
+    <string name="q_6_o_9">13.6-15 Tk</string>
+    <string name="q_6_o_10">More than 15 Tk</string>
     <string name="thank_you_for_your_time_have_a_good_day">Thank you for your time.\nHave a good day.</string>
 
 

@@ -52,26 +52,26 @@ public class SecondMainQuestionActivity extends CustomActivity {
             TextView textView2 = (TextView) ((TableRow) tableLayout.getChildAt(i + 1)).getChildAt(0);
             this.textView = textView2;
             if (i == 0) {
-                textView2.setText("যদি ০-০.৫ সঠিক হয়");
+                textView2.setText("যদি ০-১ সঠিক হয়");
             } else if (i == 1) {
-                textView2.setText("যদি ০.৫-১ সঠিক হয়");
+                textView2.setText("যদি ১.১-১.৫ সঠিক হয়");
             }
             if (i == 2) {
-                this.textView.setText("যদি ১-১.৫ সঠিক হয়");
+                this.textView.setText("যদি ১.৬-২ সঠিক হয়");
             } else if (i == 3) {
-                this.textView.setText("যদি ১.৫-২ সঠিক হয়");
+                this.textView.setText("যদি ২.১-২.৫ সঠিক হয়");
             } else if (i == 4) {
-                this.textView.setText("যদি ২-২.৫ সঠিক হয়");
+                this.textView.setText("যদি ২.৬-৩ সঠিক হয়");
             } else if (i == 5) {
-                this.textView.setText("যদি ২.৫-৩ সঠিক হয়");
+                this.textView.setText("যদি ৩.১-৩.৫ সঠিক হয়");
             } else if (i == 6) {
-                this.textView.setText("যদি ৩-৩.৫ সঠিক হয়");
+                this.textView.setText("যদি ৩.৬-৪ সঠিক হয়");
             } else if (i == 7) {
-                this.textView.setText("যদি ৩.৫-৪ সঠিক হয়");
+                this.textView.setText("যদি ৪.১-৪.৫ সঠিক হয়");
             } else if (i == 8) {
-                this.textView.setText("যদি ৪-৪.৫ সঠিক হয়");
+                this.textView.setText("যদি ৪.৬-৫ সঠিক হয়");
             } else if (i == 9) {
-                this.textView.setText("যদি ৪.৫-৫ সঠিক হয়");
+                this.textView.setText("যদি ৫ এর অধিক সঠিক হয়");
             }
         }
     }

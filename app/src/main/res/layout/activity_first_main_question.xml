@@ -369,7 +369,7 @@
     <TextView
         android:id="@+id/h1"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_1"
@@ -383,7 +383,7 @@
 
     <TextView
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_2"
@@ -399,7 +399,7 @@
     <TextView
         android:id="@+id/h3"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_3"
@@ -415,7 +415,7 @@
     <TextView
         android:id="@+id/h4"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_4"
@@ -430,7 +430,7 @@
     <TextView
         android:id="@+id/h5"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_5"
@@ -445,7 +445,7 @@
     <TextView
         android:id="@+id/h6"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_6"
@@ -460,7 +460,7 @@
     <TextView
         android:id="@+id/h7"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_7"
@@ -475,7 +475,7 @@
     <TextView
         android:id="@+id/h8"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_8"
@@ -490,7 +490,7 @@
     <TextView
         android:id="@+id/h9"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_9"
@@ -505,7 +505,7 @@
     <TextView
         android:id="@+id/h10"
         android:layout_width="75dp"
-        android:layout_height="wrap_content"
+        android:layout_height="52dp"
         android:background="@drawable/edit_text_bg_green"
         android:gravity="center"
         android:text="@string/q_4_o_10"
@@ -725,7 +725,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_weight="5"
                 android:gravity="left"
-                android:text="If 0-0.5 is correct"
+                android:text="If 0-1 is correct"
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -751,7 +751,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_weight="5"
                 android:gravity="left"
-                android:text="If 0.5-1 is correct"
+                android:text="If 1.1-1.5 is correct"
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -777,7 +777,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 1-1.5 is correct"
+                android:text="If 1.6-2 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -803,7 +803,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 1.5-2 is correct"
+                android:text="If 2.1-2.5 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -829,7 +829,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 2-2.5 is correct"
+                android:text="If 2.6-3 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -855,7 +855,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 2.5-3 is correct"
+                android:text="If 3.1-3.5 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -881,7 +881,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 3-3.5 is correct"
+                android:text="If 3.6-4 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -907,7 +907,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 3.5-4 is correct"
+                android:text="If 4.1-4.5 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -933,7 +933,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 4-4.5 is correct"
+                android:text="If 4.6-5 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />
@@ -959,7 +959,7 @@
                 android:layout_weight="5"
                 android:gravity="left"
                 android:layout_marginLeft="60dp"
-                android:text="If 4.5-5 is correct"
+                android:text="If more than 5 is correct"
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:textSize="14sp" />

@@ -317,25 +317,25 @@ public class MaintwoActivity extends CustomActivity { //this is first practice a
             TextView textView2 = (TextView) ((TableRow) tableLayout.getChildAt(i + 1)).getChildAt(0);
             this.textView = textView2;
             if (i == 0) {
-                textView2.setText("যদি ১০০-১১০ সঠিক হয়");
+                textView2.setText("যদি ০-৪০ সঠিক হয়");
             } else if (i == 1) {
-                textView2.setText("যদি ১১১-১২০ সঠিক হয়");
+                textView2.setText("যদি ৪১-৬০ সঠিক হয়");
             } else if (i == 2) {
-                textView2.setText("যদি ১২১-১৩০ সঠিক হয়");
+                textView2.setText("যদি ৬১-৮০ সঠিক হয়");
             } else if (i == 3) {
-                textView2.setText("যদি ১৩১-১৪০ সঠিক হয়");
+                textView2.setText("যদি ৮১-১০০ সঠিক হয়");
             } else if (i == 4) {
-                textView2.setText("যদি ১৪১-১৫০ সঠিক হয়");
+                textView2.setText("যদি ১০১-১২০ সঠিক হয়");
             } else if (i == 5) {
-                textView2.setText("যদি ১৫১-১৬০ সঠিক হয়");
+                textView2.setText("যদি ১২১-১৪০ সঠিক হয়");
             } else if (i == 6) {
-                textView2.setText("যদি ১৬১-১৭০ সঠিক হয়");
+                textView2.setText("যদি ১৪১-১৬০ সঠিক হয়");
             } else if (i == 7) {
-                textView2.setText("যদি ১৭১-১৮০ সঠিক হয়");
+                textView2.setText("যদি ১৬১-১৮০ সঠিক হয়");
             } else if (i == 8) {
-                textView2.setText("যদি ১৮১-১৯০ সঠিক হয়");
+                textView2.setText("যদি ১৮১-২০০ সঠিক হয়");
             } else if (i == 9) {
-                textView2.setText("যদি ১৯১-২০০ সঠিক হয়");
+                textView2.setText("যদি ২০০ এর বেশি সঠিক হয়");
             }
         }
     }
